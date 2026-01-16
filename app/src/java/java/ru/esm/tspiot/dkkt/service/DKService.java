@@ -33,7 +33,7 @@ public class DKService extends Service {
         }
 
         @Override
-        public String getTin() throws RemoteException {
+        public String getInn() throws RemoteException {
             Log.d(TAG, "DKService called getTin");
             return "123456789012";
         }

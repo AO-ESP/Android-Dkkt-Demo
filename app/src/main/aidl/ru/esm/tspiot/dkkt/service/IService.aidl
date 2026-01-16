@@ -12,7 +12,7 @@ interface IService {
 
     ServiceVersion getVersion();
 
-    String getTin();
+    String getInn();
 
     String getRegistrationNumber();
 

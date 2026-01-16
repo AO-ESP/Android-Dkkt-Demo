@@ -31,6 +31,16 @@ android {
         aidl = true
     }
 
+    flavorDimensions += "language"
+    productFlavors {
+        create("java") {
+            dimension = "language"
+        }
+        create("kotlin") {
+            dimension = "language"
+        }
+    }
+
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
